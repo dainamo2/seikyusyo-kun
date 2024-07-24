@@ -13,16 +13,16 @@
     <main>
         <form id="invoiceForm">
             <label for="clientName">宛名（請求先）:</label>
-            <input type="text" id="clientName" name="clientName" required><br>
+            <input type="text" id="clientName" name="clientName" placeholder="株式会社サンプル" required><br>
 
             <label for="issuerName">発行者名:</label>
-            <input type="text" id="issuerName" name="issuerName" required><br>
+            <input type="text" id="issuerName" name="issuerName" placeholder="山田太郎" required><br>
 
             <label for="issuerAddress">発行者の住所:</label>
-            <input type="text" id="issuerAddress" name="issuerAddress" required><br>
+            <input type="text" id="issuerAddress" name="issuerAddress" placeholder="東京都千代田区1-1-1" required><br>
 
             <label for="issuerPhone">発行者の電話番号:</label>
-            <input type="tel" id="issuerPhone" name="issuerPhone" required><br>
+            <input type="tel" id="issuerPhone" name="issuerPhone" placeholder="03-1234-5678" required><br>
 
             <label for="invoiceDate">請求日:</label>
             <input type="date" id="invoiceDate" name="invoiceDate" required><br>
@@ -31,25 +31,25 @@
             <input type="date" id="transactionDate" name="transactionDate" required><br>
 
             <label for="subtotal">小計:</label>
-            <input type="number" id="subtotal" name="subtotal" required><br>
+            <input type="number" id="subtotal" name="subtotal" placeholder="10000" required><br>
 
             <label for="tax">消費税:</label>
-            <input type="number" id="tax" name="tax" required><br>
+            <input type="number" id="tax" name="tax" placeholder="1000" required><br>
 
             <label for="total">合計金額:</label>
-            <input type="number" id="total" name="total" required><br>
+            <input type="number" id="total" name="total" placeholder="11000" required><br>
 
             <label for="dueDate">振込期日:</label>
             <input type="date" id="dueDate" name="dueDate" required><br>
 
             <label for="bankDetails">振込先:</label>
-            <textarea id="bankDetails" name="bankDetails" required></textarea><br>
+            <textarea id="bankDetails" name="bankDetails" placeholder="銀行名: ○○銀行&#10;支店名: ○○支店&#10;口座番号: 1234567&#10;口座名義: ヤマダ タロウ" required></textarea><br>
 
             <label for="invoiceNumber">請求書番号:</label>
-            <input type="text" id="invoiceNumber" name="invoiceNumber" required><br>
+            <input type="text" id="invoiceNumber" name="invoiceNumber" placeholder="INV-20240001" required><br>
 
             <label for="email">メールアドレス:</label>
-            <input type="email" id="email" name="email" required><br>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required><br>
 
             <button type="submit">送信</button>
         </form>
